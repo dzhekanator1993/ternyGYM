@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tetris</title>
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <div class="game-score">
+            <div>Level:<span id="level">0</span></div>
+            <div>Score:<span id="score">0</span></div>
+        </div>
+        <!-- 10x20 -->
+        <div class="main"></div>
+        <div class="game-over">
+            <div id="game-over">Game Over</div>
+        </div>
+        <div id="next-tetro"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
